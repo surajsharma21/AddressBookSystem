@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AddressBookSystem
 {
-    class AddressBookMain
+    class Program
     {
         public static Dictionary<string, AddressBook> AddressBookMap = new Dictionary<string, AddressBook>();
         public static Dictionary<Contact, string> CitywiseContactMap = new Dictionary<Contact, string>();
